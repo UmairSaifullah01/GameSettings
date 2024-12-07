@@ -1,0 +1,25 @@
+{
+  "name": "com.thebaddest.gamesettings",
+  "displayName": "Game Settings",
+  "version": "1.0.0",
+  "description": "Game Settings for Unity Game and Android Builder with version system",
+  "keywords": [],
+  "samples": [
+    
+  ],
+  "relatedPackages": {},
+  "_upm": {
+    "changelog": ""
+  },
+  "documentationUrl": "https://github.com/UmairSaifullah01/GameSettings",
+  "repository": {
+    "url": "https://github.com/UmairSaifullah01/GameSettings.git",
+    "type": "git",
+    "revision": "a7dd0751db55cd55e3b336723fb51433c1de7244"
+  },
+  "author": {
+    "name": "Umair Saifullah",
+    "email": "umairsaifullah01@gmail.com",
+    "url": "https://github.com/UmairSaifullah01"
+  }
+}
