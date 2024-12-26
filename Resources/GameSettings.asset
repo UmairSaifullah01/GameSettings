@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   general:
     GameName: GameName
-    BundleId: com.games.GameName
+    ComapanyName: Games
+    BundleId: com.umgames.test
     BuildVersion: 0.1
     BuildNumber: 1
     GameSceneName: SampleScene

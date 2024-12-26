@@ -1,5 +1,5 @@
-using System;
 using System.IO;
+using UnityEditor.Build;
 using UnityEngine;
 
 #if UNITY_EDITOR
@@ -23,7 +23,7 @@ namespace THEBADDEST.Settings
 		
 		
 		#if UNITY_EDITOR
-		public bool IsMono => PlayerSettings.GetScriptingBackend(BuildTargetGroup.Android) == ScriptingImplementation.Mono2x;
+		public bool IsMono => PlayerSettings.GetScriptingBackend(NamedBuildTarget.Android) == ScriptingImplementation.Mono2x;
 		public string BuildAndroidProductName
 		{
 			get { return $"{PlayerSettings.productName}v{GameSettings.Settings.general.BuildVersion}V{GameSettings.Settings.general.BuildNumber}{PlayerSettings.GetScriptingBackend(BuildTargetGroup.Android)}{PlayerSettings.Android.targetArchitectures.ToString().Replace(",", "")}{(buildOptionAndroid.HasFlag(BuildOptions.Development) ? "Dev" : "Prod")}.{(IsAppBundle ? "aab" : "apk")}"; }

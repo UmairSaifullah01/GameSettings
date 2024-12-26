@@ -64,7 +64,7 @@ namespace THEBADDEST.Settings
 			#if UNITY_EDITOR
 			general.UpdateQuality();
 			PlayerSettings.SetApplicationIdentifier(NamedBuildTarget.Android, general.BundleId);
-			PlayerSettings.companyName               = "Leyla";
+			PlayerSettings.companyName               = general.ComapanyName;
 			PlayerSettings.productName               = general.GameName;
 			PlayerSettings.bundleVersion             = general.BuildVersion;
 			PlayerSettings.Android.bundleVersionCode = general.BuildNumber;
