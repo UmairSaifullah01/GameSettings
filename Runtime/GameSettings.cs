@@ -43,8 +43,10 @@ namespace THEBADDEST.Settings
 			if (settings == null)
 			{
 				string[] guids = UnityEditor.AssetDatabase.FindAssets($"t:{nameof(GameSettings)}");
-				string   path  = UnityEditor.AssetDatabase.GUIDToAssetPath(guids[0]);
-				settings = UnityEditor.AssetDatabase.LoadAssetAtPath<GameSettings>(path);
+				if(guids.Length>0){
+					string path = UnityEditor.AssetDatabase.GUIDToAssetPath(guids[0]);
+					settings = UnityEditor.AssetDatabase.LoadAssetAtPath<GameSettings>(path);
+				}
 			}
 
 			if (settings == null)
