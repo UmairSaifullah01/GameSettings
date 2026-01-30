@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 
@@ -14,6 +15,7 @@ namespace THEBADDEST.BuildModuleSystem
 		public string BundleId = "com.games.GameName";
 		public string BuildVersion = "0.1";
 		public int BuildNumber = 1;
+		public UIOrientation orientation = UIOrientation.Portrait;
 
 		[Header("iOS Build")]
 		public string buildPath;

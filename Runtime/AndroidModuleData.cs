@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 
@@ -14,14 +15,13 @@ namespace THEBADDEST.BuildModuleSystem
 		public string BundleId = "com.games.GameName";
 		public string BuildVersion = "0.1";
 		public int BuildNumber = 1;
+		public UIOrientation orientation = UIOrientation.Portrait;
 
-		[Header("Android Build")]
+		
 		public string buildPath;
-
-		[Tooltip("Optional override for output file name. Leave empty for default.")]
+		
 		public string customOutputFileName;
-
-		[Header("Keystore")]
+		
 		public bool signed = false;
 		public string keystoreName;
 		public string keystorePass = "123456";

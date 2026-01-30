@@ -19,17 +19,19 @@ MonoBehaviour:
     BundleId: com.games.GameName
     BuildVersion: 0.1
     BuildNumber: 1
-    buildPath: 
+    orientation: 0
+    buildPath: D:/Unity/Learn/PackageCreator/Builds/iOS/GameName/
     customOutputFileName: 
   androidModule:
-    GameName: GameName
+    GameName: Test
     ComapanyName: Games
-    BundleId: com.games.GameName
+    BundleId: com.umgames.test
     BuildVersion: 0.1
     BuildNumber: 1
-    buildPath: 
+    orientation: 0
+    buildPath: D:/Unity/Learn/PackageCreator/Builds/Android/Test/
     customOutputFileName: 
-    signed: 1
+    signed: 0
     keystoreName: 
     keystorePass: 123456
     keyaliasName: 
