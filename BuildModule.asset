@@ -29,7 +29,7 @@ MonoBehaviour:
     BuildNumber: 1
     buildPath: 
     customOutputFileName: 
-    signed: 0
+    signed: 1
     keystoreName: 
     keystorePass: 123456
     keyaliasName: 

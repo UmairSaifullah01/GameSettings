@@ -1,12 +1,8 @@
 {
-    "name": "THEBADDEST.Gamesettings.Editor",
-    "rootNamespace": "",
-    "references": [
-        "GUID:e7216233afdc945868bedba65339d0c4"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "name": "THEBADDEST.BuildModule",
+    "rootNamespace": "THEBADDEST.BuildModuleSystem",
+    "references": [],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
