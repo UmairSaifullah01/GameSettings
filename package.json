@@ -1,12 +1,10 @@
 {
-  "name": "com.thebaddest.gamesettings",
-  "displayName": "Game Settings",
+  "name": "com.thebaddest.buildmodule",
+  "displayName": "Build Module",
   "version": "1.0.0",
-  "description": "Game Settings for Unity Game and Android Builder with version system",
+  "description": "Build Module for iOS and Android (debug/release, Android APK+AAB).",
   "keywords": [],
-  "samples": [
-    
-  ],
+  "samples": [],
   "relatedPackages": {},
   "_upm": {
     "changelog": ""

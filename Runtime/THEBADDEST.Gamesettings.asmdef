@@ -1,3 +1,4 @@
 {
-	"name": "THEBADDEST.Gamesettings"
+  "name": "THEBADDEST.Gamesettings",
+  "rootNamespace": "THEBADDEST.BuildModuleSystem"
 }
